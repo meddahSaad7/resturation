@@ -33,6 +33,7 @@ function Auth() {
   return (
     <>
       <button type='button' onClick={logOut}>logOut</button>
+      <h1>meddah saad ...</h1>
       <form className=' w-[53%] h-[50%] flex flex-col justify-center items-start' onSubmit={signIn}>
         <input type='text' className=' w-full h-[40px] outline-none bg-gray-100 mb-3' onChange={(e) => setEmail(e.target.value)} placeholder='email' name='email' />
         <input type='password' className=' w-full h-[40px] outline-none bg-gray-100 mb-3' onChange={(e) => setPassword(e.target.value)} placeholder='password' name='password' />
